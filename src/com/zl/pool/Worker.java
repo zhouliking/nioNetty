@@ -4,7 +4,6 @@ import java.nio.channels.SocketChannel;
 /**
  * worker接口
  * @author 周力
- *
  */
 public interface Worker {
 	
