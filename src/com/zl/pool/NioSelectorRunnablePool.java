@@ -8,7 +8,6 @@ import com.zl.strap.NioServerWorker;
 /**
  * selector线程管理者
  * @author 周力
- *
  */
 public class NioSelectorRunnablePool {
 
