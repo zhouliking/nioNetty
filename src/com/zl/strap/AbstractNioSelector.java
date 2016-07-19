@@ -11,9 +11,7 @@ import com.zl.pool.NioSelectorRunnablePool;
 
 /**
  * 抽象selector线程类
- * 
  * @author 周力
- * 
  */
 public abstract class AbstractNioSelector implements Runnable {
 
