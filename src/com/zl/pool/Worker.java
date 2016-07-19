@@ -2,7 +2,7 @@ package com.zl.pool;
 
 import java.nio.channels.SocketChannel;
 /**
- *  worker接口
+ * worker接口
  * @author 周力
  *
  */
