@@ -13,7 +13,7 @@ import com.zl.strap.NioServerWorker;
 public class NioSelectorRunnablePool {
 
 	/**
-	 * boss线程数组
+	 *  boss线程数组
 	 */
 	private final AtomicInteger bossIndex = new AtomicInteger();
 	private Boss[] bosses;
