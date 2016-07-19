@@ -19,7 +19,7 @@ public class NioSelectorRunnablePool {
 	private Boss[] bosses;
 
 	/**
-	 * worker线程数组
+	 *  worker线程数组
 	 */
 	private final AtomicInteger workerIndex = new AtomicInteger();
 	private Worker[] workeres;
