@@ -16,7 +16,6 @@ import com.zl.pool.Worker;
 /**
  * boss实现类
  * @author 周力
- *
  */
 public class NioServerBoss extends AbstractNioSelector implements Boss{
 
