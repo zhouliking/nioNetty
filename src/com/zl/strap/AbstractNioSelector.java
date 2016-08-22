@@ -11,6 +11,7 @@ import com.zl.pool.NioSelectorRunnablePool;
 
 /**
  * 抽象selector线程类
+ * 
  * @author 周力
  */
 public abstract class AbstractNioSelector implements Runnable {
@@ -39,7 +40,7 @@ public abstract class AbstractNioSelector implements Runnable {
 	 * 线程名称
 	 */
 	private String threadName;
-	
+
 	/**
 	 * 线程管理对象
 	 */
@@ -66,7 +67,7 @@ public abstract class AbstractNioSelector implements Runnable {
 
 	@Override
 	public void run() {
-		
+
 		Thread.currentThread().setName(this.threadName);
 
 		while (true) {
@@ -116,9 +117,10 @@ public abstract class AbstractNioSelector implements Runnable {
 			task.run();
 		}
 	}
-	
+
 	/**
 	 * 获取线程管理对象
+	 * 
 	 * @return
 	 */
 	public NioSelectorRunnablePool getSelectorRunnablePool() {
